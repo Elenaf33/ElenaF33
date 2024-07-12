@@ -1,0 +1,28 @@
+1.In testarea automatizata testerii folosesc instrumentele de automatizare speciale pentru a dezvolta scripturile de testare. Adica cazurile de testare sunt executate cu ajutorul unui software special si a scripturilor.
+2.Maven este un instrument de automatizare a construcției care este utilizat pentru a gestiona și a construi proiecte Java. Maven ne ajuta sa nu incarcam manual librariile sau driverele.Fișierul POM este un fișier XML care conține toate informațiile necesare despre un proiect.
+3. Da, exista diferenta. Absolute Xpath incepe cu simbolul / iar relative Xpath incepe cu //. Absolute XPath ne ofera calea completa de la radacina documentului HTML, adica putem cauta elemente oriunde pe pagina. Relativul xpath se incepe prin a se referi la elementul pe care vrem sa-l identificam si nu de la nodul radacina.
+4.Trebuie sa evitam acest Xpath deoarece daca se va face vreo modificare in calea elementului, atunci XPath-ul va esua.
+5. Locatorii care pot fi gasiti utilizand Xpath sunt: Id,Name, Linktext, Partiallinktext, TagName
+6.Css este conceput pentru stilizarea continutului unei pagini web si a prezentarii acesteia, inclusiv aspectul unei pagini web. Selectoarele CSS  sunt folosite pentru a identifica si localiza elemente web de exemplu id,clasa,numele, atributele.
+7. nu am raspuns
+8. 
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class testarea {
+
+	public static void main(String[] args) {
+
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://www.saucedemo.com/");
+		driver.findElement(By.cssSelector("input[data-test='username'][type='text']")).sendKeys("standard_user\r\n");
+		driver.findElement(By.cssSelector("input[class='input_error form_input'][type='text']")).sendKeys("secret_sauce");
+		driver.findElement(By.xpath("//button[@id='login-button']")).click();
+
+
+	}
+
+}
