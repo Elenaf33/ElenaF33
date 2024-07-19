@@ -1,0 +1,241 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class temaptacasa7 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+//		/ #1 Get 
+//		WebDriverManager.chromedriver().setup();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+
+		// #2 manage
+//		WebDriverManager.chromedriver().setup();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+//		driver.manage().window().maximize();
+
+		// #3 getCurrentUrl
+//		WebDriverManager.chromedriver().setup();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+//		driver.manage().window().maximize();
+//		String currentUrl = driver.getCurrentUrl();
+//		System.out.println("adresa curenta este : " + currentUrl);		
+
+		// #4 getTitle
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+//		String mainpageTitle = driver.getTitle();
+//		System.out.println("Title curent este : " + mainpageTitle);
+
+		// #5 getPageSource
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+//		String codeSource = driver.getPageSource();
+//		System.out.println("code source : " + codeSource);
+
+		// #6 navigate
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver(); 
+//		driver.get("https://wizzair.com/en-gb");
+//		Thread.sleep(3000);
+//		
+//		String wizzairPageTitle = driver.getTitle();
+//		System.out.println("Titlu pagina Wizzair: " + wizzairPageTitle);
+//		
+//		driver.navigate().to( "https://tarom.ro/" );
+//		String taromPageTitle = driver.getTitle();
+//		System.out.println(" Titlu pagina Tarom :" + taromPageTitle);
+		
+		// #7 quit
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://wizzair.com/en-gb");
+//		driver.manage().window().maximize();
+//		System.out.println("să deschid browser-ul");
+//		Thread.sleep(3000);
+//		driver.quit();
+//		System.out.println("sa inchis browser-ul");
+		
+		
+		// #8 close -
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver(); 
+//		
+//		driver.get("https://wizzair.com/en-gb");
+//		System.out.println("sa deschid browser-ul");
+//		Thread.sleep(3000);
+//		
+//		driver.findElement(By.xpath("//*[@id=\"app\"]/div/header/div[1]/div/nav/ul/li[2]/a")).click();
+//		Thread.sleep(10000);
+//		driver.close();
+//		System.out.println("sa inchis tab-ul curent");
+		
+		
+		// #9 findElement
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver(); 
+//		
+//		driver.get("https://www.tarom.ro/");
+//		System.out.println("sa deschid browser-ul");
+//		driver.manage().window().maximize();
+//		Thread.sleep(3000);
+//		driver.findElement(By.xpath("//*[@id=\"mega-menu-item-654\"]/a")).click();
+		
+		// #10 windowHandle - printeaza identificatorul unic al website-ului accesat in fereastra din browser
+		
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver(); 
+//		
+//		driver.get("https://www.tarom.ro/");
+//		System.out.println("sa deschid browser-ul");
+//		Thread.sleep(3000);
+//		
+//		String identificatorUnicAlPaginii = driver.getWindowHandle();
+//		System.out.println(identificatorUnicAlPaginii);
+		
+		
+		// #11 switchTo - poti sa te muti de la un tab la altul
+		
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver(); 
+//		
+//		 driver.get("https://www.tarom.ro/");
+//		 driver.manage().window().maximize(); 
+//		 
+//		 driver.findElement(By.xpath("//*[@id=\"mega-menu-item-663\"]/a")).click();
+//		 
+//		 String firstPageTitle = driver.getTitle();
+//		 System.out.println(firstPageTitle);
+//		 
+//		 Thread.sleep(5000);
+//		 
+//		 driver.findElement(By.xpath("//*[@id=\"mega-menu-item-44711\"]/a")).click();
+//		 String secondPageTitle = driver.getTitle();
+//		 System.out.println(secondPageTitle);
+//		 driver.switchTo().window("Alege loc");
+//		
+//		
+//		String mainpageTitle = driver.getTitle();
+//		System.out.println("Title curent este : " + mainpageTitle);
+		
+		
+		// #12 sendKeys
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://farmacie.md/ro/");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		Thread.sleep(2000);
+//		
+//		driver.findElement(By.xpath("//*[@id=\"profile-popup-toggle\"]/a")).click();
+//		driver.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/input")).click();
+//		System.out.println("click on login input");
+//		Thread.sleep(2000);
+//		driver.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/input")).sendKeys("elenafuior87@gmail.com");
+
+		// #13 clear
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://farmacie.md/ro/");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		Thread.sleep(2000);
+//		
+//		
+//		driver.findElement(By.xpath("//*[@id=\"profile-popup-toggle\"]/a")).click();
+//		driver.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/input")).click();
+//		System.out.println("click on login input");
+//		driver.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/input")).sendKeys("elenafuior87@gmail.com");
+//		Thread.sleep(3000);
+//		driver.findElement(By.xpath("/html/body/div/div[1]/form/div[2]/input")).clear();
+
+//		
+//		// #14 click - la interviu cand intreaba de click se are in vedere click stanga,nu dreapta
+//		
+//		 WebDriverManager.chromedriver();
+//		 ChromeDriver driver = new ChromeDriver();
+//		 driver.get("https://farmacie.md/ro/");
+//		 driver.manage().window().maximize();
+//         driver.findElement(By.xpath("//*[@id=\"profile-popup-toggle\"]/a")).click();
+//         
+         
+ 		// #15 getAttribute
+// 		WebDriverManager.chromedriver();
+// 		ChromeDriver driver = new ChromeDriver();
+// 		
+// 		driver.get("https://checkout14.iherb.com/auth/ui/account/login?correlationId=23e4b4b1dea81dc4b5c93fb906f3cd8e");
+// 		System.out.println("am accesat sait-ul");
+// 		driver.manage().window().maximize();
+// 		
+// 		
+// 		System.out.println(driver.findElement(By.xpath("//*[@id=\"username-input\"]")).getAttribute("placeholder"));
+// 		
+ 		
+		// #16 getCssValue
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://checkout14.iherb.com/auth/ui/account/login?correlationId=23e4b4b1dea81dc4b5c93fb906f3cd8e");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		
+//		
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"username-input\"]")).getCssValue("font-style"));
+		
+//		// #17 getLocation - inseamna get position of the element on the page
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://auth.emag.ro/user/login");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"user_login_email\"]")).getLocation());
+
+		// #18 getSize
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://auth.emag.ro/user/login");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		
+//		
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"user_login_email\"]")).getSize());
+		
+//		// #19 getTagName
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://auth.emag.ro/user/login");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"user_login_email\"]")).getTagName());
+		
+//		// #20 getText
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		
+//		driver.get("https://auth.emag.ro/user/login");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"user_login_email\"]")).getText());
+		
+		// #21 isDisplayed
+//		WebDriverManager.chromedriver();
+//		ChromeDriver driver = new ChromeDriver();
+//		driver.get("https://auth.emag.ro/user/login");
+//		System.out.println("am accesat sait-ul");
+//		driver.manage().window().maximize();
+//		System.out.println(driver.findElement(By.xpath("//*[@id=\"user_login_email\"]")).isDisplayed());
+	}
+
+}
